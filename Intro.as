@@ -1,0 +1,1 @@
+﻿package  {		import Light;	import flash.display.MovieClip;		public class Intro extends MovieClip {		public function Intro() {			var light = new Light();//			light.x = 240;//			light.y = 160;			light.blendMode = "multiply";			this.addChild(light);			reset();		}				function reset():void {			this.x = 240;			this.y = 160;		}	}	}

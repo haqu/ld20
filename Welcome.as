@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;			public class Welcome extends MovieClip {						public function Welcome() {			this.x = 3100;			this.y = 160;			this.gotoAndStop(1);		}	}	}

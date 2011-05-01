@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;		public class Background extends MovieClip {				public function Background() {			reset();		}				public function reset():void {			this.x = 0;			this.y = 160;		}	}	}

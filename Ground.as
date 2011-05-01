@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.MovieClip;	import flash.events.Event;		public class Ground extends MovieClip {		public function Ground() {			trace("ground");			this.addEventListener(Event.ENTER_FRAME, update);			reset();		}		public function reset():void {			this.x = 0;			this.y = 160;		}		function update(e:Event):void {		}			}}
